@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="5dp"
+    android:padding="15dp"
+    app:cardUseCompatPadding="true">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@drawable/backdialogs">
+
+    </Toolbar>
+    <LinearLayout
+        android:id="@+id/linearList"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/imagen_usuario"
+            android:layout_centerVertical="true"
+            android:id="@+id/img1"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/teal_200"
+            />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idtext"
+                android:text="Numero de colaborador"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/teal_700"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nametext"
+                android:text="Nombre"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailtext"
+                android:text="Correo"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_below="@id/nametext"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,43 @@
+{
+	"data":{
+		"employees":[
+			{
+				"id":"124",
+				"name":"Daniel Alejandro Catañeda",
+				"location":{
+					"lat":"19.300378",
+					"log":"-99.2009822"
+				},
+				"mail":"alejandro@upaxer.com"
+			},
+			{
+				"id":"145",
+				"name":"Mariela Duran ",
+				"location":{
+					"lat":"19.3052213",
+					"log":"-99.2032828"
+				},
+				"mail":"mariela@upaxer.com"
+			},
+			{
+				"id":"175",
+				"name":"David Campos",
+				"location":{
+					"lat":"19.3051679",
+					"log":"-99.2021852"
+				},
+				"mail":"david@upaxer.com"
+			},
+			{
+				"id":"198",
+				"name":"Jesus Alejandro Damian",
+				"location":{
+					"lat":"19.3054457",
+					"log":"-99.2024085"
+				},
+				"mail":"jesusa@upaxer.com"		
+			}
+
+		]
+	}
+}
